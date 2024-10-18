@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./Navbar";
 import Jumbotron from "./Jumbotron";
 import Card from "./Card";
+import Footer from "./Footer";
 import PropTypes from "prop-types";
 //include images into your bundle
 
@@ -22,7 +23,9 @@ const Home = () => {
 					<Card title="Card 4" description={lorem} text="Find out more!" srcImage='https://plus.unsplash.com/premium_photo-1714051661316-4432704b02f8?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8' />
 				</div>
 			</div>
-
+			<div>
+				<Footer />
+			</div>
 		</div>
 	);
 };

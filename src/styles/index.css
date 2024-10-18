@@ -52,3 +52,18 @@ ul {
     overflow: hidden;
     box-shadow: 8px 8px 8px darkslategrey;
 }
+
+.footer {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+    text-align: center;
+    display: flex;
+}
+
+#copyright {
+    position: relative;
+    margin-top: 55px;
+    justify-content: center;
+    margin-left: 630px;
+}
